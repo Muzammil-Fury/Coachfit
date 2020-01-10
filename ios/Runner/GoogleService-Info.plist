@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>902953928204-0ev1j5rimkmb6vp8vhdakpf66kcs113h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.902953928204-0ev1j5rimkmb6vp8vhdakpf66kcs113h</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAz8Adn1OdI377hvdYI03-9r-1c5w-45qk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>902953928204</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gomotive.dhf</string>
+	<key>PROJECT_ID</key>
+	<string>gomotive-ada4f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gomotive-ada4f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:902953928204:ios:2afc6518ddc7041d</string>
+	<key>DATABASE_URL</key>
+	<string>https://gomotive-ada4f.firebaseio.com</string>
+</dict>
+</plist>

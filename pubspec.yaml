@@ -1,0 +1,92 @@
+name: gomotive
+description: DHF CoachFit
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 5.1.6+4
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  redux: ^3.0.0
+  flutter_redux: ^0.5.3
+  redux_logging: ^0.3.0
+  redux_thunk: ^0.2.1
+  redux_persist_flutter: ^0.8.1 
+  redux_persist: ^0.8.1
+  shared_preferences: ^0.5.1+1
+  meta: ^1.1.6
+  http: ^0.12.0+1
+  video_player: ^0.10.0+2
+  chewie: ^0.9.6
+  progress_hud: ^1.1.0
+  intl: ^0.15.7
+  path: ^1.0.0
+  flutter_inapp_purchase: ^0.9.0
+  cached_network_image: ^2.0.0-rc
+  url_launcher: ^5.0.1
+  package_info: ^0.4.0+1
+  flutter_html: ^0.9.4
+  firebase_messaging: ^4.0.0+1
+  device_info: ^0.4.0+1
+  fluttertoast: ^3.0.1
+  grouped_buttons: ^1.0.4
+  charts_flutter: ^0.6.0
+  keyboard_actions: ^1.0.4
+  reorderables: ^0.2.7 
+  uni_links: ^0.2.0
+  flutter_crashlytics: ^1.0.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/loading.gif
+    - assets/images/play.png
+    - assets/images/generic_news.jpg
+    - assets/images/clients.jpeg
+    - assets/images/connect.jpeg
+    - assets/images/gi_3dmaps.jpg
+    - assets/images/gi_fstt.jpg
+    - assets/images/gi_golf.jpg
+    - assets/images/logo_big.png
+    - assets/images/send.png
+    - assets/images/search.png
+    - assets/images/user_profile.png
+    - assets/images/dhf_metabolic.png
+    - assets/images/dhf_mobility.png
+    - assets/images/dhf_power.png
+    - assets/images/dhf_strength.png
+    - assets/images/habits.jpeg
+    - assets/images/nutrition.jpeg
+    - assets/images/invite_client.jpeg
+
+
+  fonts:
+    - family: gomotive
+      fonts:
+        - asset: assets/fonts/gomotive.ttf
