@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:gomotive/homefit/components/video_app.dart';
 import 'package:gomotive/homefit/core/app_constants.dart';
-import 'package:gomotive/homefit/core/app_state.dart';
+import 'package:gomotive/core/app_state.dart';
 import 'package:gomotive/homefit/utils/gomotive_icons.dart';
 import 'package:redux/redux.dart';
 

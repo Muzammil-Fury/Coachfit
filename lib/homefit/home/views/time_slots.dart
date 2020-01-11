@@ -7,7 +7,6 @@ import 'package:gomotive/homefit/core/app_constants.dart';
 import 'package:gomotive/homefit/utils/utils.dart';
 import 'package:gomotive/homefit/home/home_network.dart';
 import 'package:gomotive/homefit/core/app_config.dart';
-import 'package:gomotive/homefit/core/app_constants.dart';
 import 'package:gomotive/homefit/utils/gomotive_icons.dart';
 
 class TimeSlots extends StatelessWidget {

@@ -7,7 +7,6 @@ import 'package:redux/redux.dart';
 import 'package:gomotive/core/app_state.dart';
 import 'package:gomotive/homefit/core/app_constants.dart';
 import 'package:gomotive/utils/preferences.dart';
-import 'package:gomotive/homefit/utils/utils.dart';
 import 'package:gomotive/homefit/home/views/dashboard.dart';
 import 'package:gomotive/homefit/home/home_actions.dart';
 

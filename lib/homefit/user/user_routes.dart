@@ -1,11 +1,11 @@
 
-import 'package:homefit/user/views/user_change_password.dart';
-import 'package:homefit/user/views/user_edit_profile.dart';
-import 'package:homefit/user/views/user_support.dart';
-import 'package:homefit/user/views/user_movement_meter_settings.dart';
-import 'package:homefit/user/views/user_profile.dart';
-import 'package:homefit/user/views/user_profile_ipad.dart';
-import 'package:homefit/user/views/user_activity_track.dart';
+import 'package:gomotive/homefit/user/views/user_change_password.dart';
+import 'package:gomotive/homefit/user/views/user_edit_profile.dart';
+import 'package:gomotive/homefit/user/views/user_support.dart';
+import 'package:gomotive/homefit/user/views/user_movement_meter_settings.dart';
+import 'package:gomotive/homefit/user/views/user_profile.dart';
+import 'package:gomotive/homefit/user/views/user_profile_ipad.dart';
+import 'package:gomotive/homefit/user/views/user_activity_track.dart';
 
 var userRoutes = {
   '/user': (context) => UserProfile(),

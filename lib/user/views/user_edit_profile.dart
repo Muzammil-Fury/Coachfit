@@ -8,7 +8,6 @@ import 'package:gomotive/utils/gomotive_icons.dart';
 import 'package:gomotive/core/app_state.dart';
 import 'package:gomotive/user/user_network.dart';
 import 'package:gomotive/components/dropdown_form_field.dart';
-import 'package:gomotive/core/app_config.dart';
 
 class UserEditProfile extends StatelessWidget {
   @override

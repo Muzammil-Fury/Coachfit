@@ -5,7 +5,6 @@ import 'package:gomotive/core/app_constants.dart';
 import 'package:gomotive/core/app_config.dart';
 import 'package:gomotive/utils/gomotive_icons.dart';
 import 'package:gomotive/core/app_state.dart';
-import 'package:gomotive/core/app_config.dart';
 
 class UserAbout extends StatelessWidget {
   @override
