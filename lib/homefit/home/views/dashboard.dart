@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
-import 'package:homefit/core/app_state.dart';
-import 'package:homefit/core/app_constants.dart';
-import 'package:homefit/workout/views/workout_preview.dart';
-import 'package:homefit/core/app_config.dart';
-import 'package:homefit/home/home_network.dart';
-import 'package:homefit/utils/utils.dart';
-import 'package:homefit/workout/workout_actions.dart';
-import 'package:homefit/user/views/user_profile_ipad.dart';
-import 'package:homefit/utils/movement_circle.dart';
-import 'package:homefit/utils/menu_utils.dart';
-import 'package:homefit/utils/gomotive_icons.dart';
-import 'package:homefit/user/views/user_movement_meter_weekly_graph.dart';
+import 'package:gomotive/core/app_state.dart';
+import 'package:gomotive/homefit/core/app_constants.dart';
+import 'package:gomotive/homefit/workout/views/workout_preview.dart';
+import 'package:gomotive/homefit/core/app_config.dart';
+import 'package:gomotive/homefit/home/home_network.dart';
+import 'package:gomotive/homefit/utils/utils.dart';
+import 'package:gomotive/homefit/workout/workout_actions.dart';
+import 'package:gomotive/homefit/user/views/user_profile_ipad.dart';
+import 'package:gomotive/homefit/utils/movement_circle.dart';
+import 'package:gomotive/homefit/utils/menu_utils.dart';
+import 'package:gomotive/homefit/utils/gomotive_icons.dart';
+import 'package:gomotive/homefit/user/views/user_movement_meter_weekly_graph.dart';
 
 class Dashboard extends StatelessWidget {
 

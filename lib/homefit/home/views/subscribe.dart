@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
-import 'package:homefit/core/app_state.dart';
+import 'package:gomotive/core/app_state.dart';
 import 'package:flutter_inapp_purchase/flutter_inapp_purchase.dart';
-import 'package:homefit/core/app_constants.dart';
-import 'package:homefit/home/home_network.dart';
-import 'package:homefit/components/text_tap.dart';
-import 'package:homefit/core/app_config.dart';
-import 'package:homefit/utils/gomotive_icons.dart';
-import 'package:homefit/utils/utils.dart';
+import 'package:gomotive/homefit/core/app_constants.dart';
+import 'package:gomotive/homefit/home/home_network.dart';
+import 'package:gomotive/homefit/components/text_tap.dart';
+import 'package:gomotive/homefit/core/app_config.dart';
+import 'package:gomotive/homefit/utils/gomotive_icons.dart';
+import 'package:gomotive/homefit/utils/utils.dart';
 import 'package:stripe_payment/stripe_payment.dart';
 
 class Subscribe extends StatelessWidget {

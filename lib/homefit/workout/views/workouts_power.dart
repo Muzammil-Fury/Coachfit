@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
-import 'package:homefit/core/app_state.dart';
-import 'package:homefit/core/app_config.dart';
-import 'package:homefit/workout/views/workout_preview.dart';
-import 'package:homefit/workout/workout_network.dart';
-import 'package:homefit/utils/utils.dart';
-import 'package:homefit/core/app_constants.dart';
-import 'package:homefit/workout/views/workout_filter.dart';
-import 'package:homefit/utils/gomotive_icons.dart';
-import 'package:homefit/utils/menu_utils.dart';
+import 'package:gomotive/core/app_state.dart';
+import 'package:gomotive/homefit/core/app_config.dart';
+import 'package:gomotive/homefit/workout/views/workout_preview.dart';
+import 'package:gomotive/homefit/workout/workout_network.dart';
+import 'package:gomotive/homefit/utils/utils.dart';
+import 'package:gomotive/homefit/core/app_constants.dart';
+import 'package:gomotive/homefit/workout/views/workout_filter.dart';
+import 'package:gomotive/homefit/utils/gomotive_icons.dart';
+import 'package:gomotive/homefit/utils/menu_utils.dart';
 
 class WorkoutsPower extends StatelessWidget {
 

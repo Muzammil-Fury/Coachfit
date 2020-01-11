@@ -1,6 +1,6 @@
 import 'package:redux/redux.dart';
-import 'package:homefit/home/home_state.dart';
-import 'package:homefit/home/home_actions.dart';
+import 'package:gomotive/homefit/home/home_state.dart';
+import 'package:gomotive/homefit/home/home_actions.dart';
 
 Reducer<HomeFitHomeState> homeFitHomeReducer = combineReducers([      // Done
   new TypedReducer<HomeFitHomeState, VerifyEmailSuccessActionCreator>(_verifyEmailSuccessActionCreator),

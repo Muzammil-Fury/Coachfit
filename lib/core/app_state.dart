@@ -16,6 +16,8 @@ import 'package:gomotive/gameplan/gameplan_state.dart';
 import 'package:gomotive/goal/goal_state.dart';
 import 'package:gomotive/document/document_state.dart';
 import 'package:gomotive/intake/intake_state.dart';
+import 'package:gomotive/homefit/home/home_state.dart';
+import 'package:gomotive/homefit/workout/workout_state.dart';
 
 @immutable
 class AppState {
@@ -36,6 +38,8 @@ class AppState {
   final GoalState goalState;
   final DocumentState documentState;
   final IntakeState intakeState;
+  final HomeFitHomeState homeFitHomeState;
+  final HomeFitWorkoutState homeFitWorkoutState;
   
   AppState(
     {
@@ -56,6 +60,8 @@ class AppState {
       GoalState goalState,
       DocumentState documentState,
       IntakeState intakeState,
+      HomeFitHomeState homeFitHomeState,
+      HomeFitWorkoutState homeFitWorkoutState,
     }
   )
     : authState = authState ?? new AuthState(),
@@ -74,7 +80,9 @@ class AppState {
       gameplanState = gameplanState ?? new GameplanState(),
       goalState = goalState ?? new GoalState(),
       documentState = documentState ?? new DocumentState(),
-      intakeState = intakeState ?? new IntakeState();
+      intakeState = intakeState ?? new IntakeState(),
+      homeFitHomeState = homeFitHomeState ?? new HomeFitHomeState(),
+      homeFitWorkoutState = homeFitWorkoutState ?? new HomeFitWorkoutState();
 
   AppState copyWith(
     {
@@ -95,6 +103,8 @@ class AppState {
       GoalState goalState,
       DocumentState documentState,
       IntakeState intakeState,
+      HomeFitHomeState homeFitHomeState,
+      HomeFitWorkoutState homeFitWorkoutState,
     }
   ) {
     return AppState(
@@ -115,6 +125,8 @@ class AppState {
       goalState: goalState ?? this.goalState,
       documentState: documentState ?? this.documentState,
       intakeState: intakeState ?? this.intakeState,
+      homeFitHomeState: homeFitHomeState ?? this.homeFitHomeState,
+      homeFitWorkoutState: homeFitWorkoutState ?? this.homeFitWorkoutState,
     );
   }
 }
