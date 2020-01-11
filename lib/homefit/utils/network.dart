@@ -1,12 +1,12 @@
+import 'package:gomotive/homefit/core/app_config.dart';
+import 'package:gomotive/homefit/core/app_constants.dart';
+import 'package:gomotive/homefit/utils/utils.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:core';
 import 'dart:convert';
 import 'package:progress_hud/progress_hud.dart';
 import 'package:flutter/material.dart';
-import 'package:homefit/core/app_config.dart';
-import 'package:homefit/core/app_constants.dart';
-import 'package:homefit/utils/utils.dart';
 
 typedef void Success(Map response);
 typedef void Failure(dynamic error);

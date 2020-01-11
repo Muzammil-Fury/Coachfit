@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:homefit/utils/preferences.dart';
-import 'package:homefit/core/app_constants.dart';
+import 'package:gomotive/core/app_config.dart';
+import 'package:gomotive/homefit/core/app_constants.dart';
+import 'package:gomotive/utils/preferences.dart';
 import 'dart:async';
 import 'package:intl/intl.dart';
-import 'package:homefit/core/app_config.dart';
 import 'dart:convert';
 import 'package:url_launcher/url_launcher.dart';
 import 'dart:io' show Platform;

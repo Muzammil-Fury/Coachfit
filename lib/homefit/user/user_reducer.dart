@@ -1,6 +1,6 @@
 import 'package:redux/redux.dart';
-import 'package:homefit/user/user_actions.dart';
-import 'package:homefit/user/user_state.dart';
+import 'package:gomotive/homefit/user/user_actions.dart';
+import 'package:gomotive/homefit/user/user_state.dart';
 
 Reducer<UserState> userReducer = combineReducers([  
   new TypedReducer<UserState, FetchUserProfileDetailsActionCreator>(_fetchUserProfileDetailsActionCreator),  

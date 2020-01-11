@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:collection/collection.dart';
-import 'package:homefit/utils/gomotive_icons.dart';
+import 'package:gomotive/homefit/utils/gomotive_icons.dart';
 
 
 class MultiSelect extends FormField<dynamic> {

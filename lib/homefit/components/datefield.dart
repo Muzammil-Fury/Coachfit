@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:homefit/utils/utils.dart';
+import 'package:gomotive/homefit/utils/utils.dart';
 import 'dart:async';
 
 typedef void GetSelectedDateValue(String selectedDateStr);

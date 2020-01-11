@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:gomotive/homefit/components/video_app.dart';
+import 'package:gomotive/homefit/core/app_config.dart';
+import 'package:gomotive/homefit/core/app_constants.dart';
+import 'package:gomotive/homefit/core/app_state.dart';
+import 'package:gomotive/homefit/home/home_network.dart';
+import 'package:gomotive/homefit/utils/gomotive_icons.dart';
+import 'package:gomotive/homefit/utils/utils.dart';
 import 'package:redux/redux.dart';
-import 'package:homefit/core/app_state.dart';
-import 'package:homefit/components/video_app.dart';
-import 'package:homefit/home/home_network.dart';
-import 'package:homefit/utils/utils.dart';
-import 'package:homefit/core/app_config.dart';
-import 'package:homefit/core/app_constants.dart';
-import 'package:homefit/utils/gomotive_icons.dart';
 
 class VideoPlay extends StatelessWidget {
   final String videoURL;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:homefit/utils/gomotive_icons.dart';
-import 'package:homefit/core/app_constants.dart';
-import 'package:homefit/core/app_config.dart';
+import 'package:gomotive/core/app_config.dart';
+import 'package:gomotive/homefit/core/app_constants.dart';
+import 'package:gomotive/homefit/utils/gomotive_icons.dart';
 
 class MenuUtils {
 

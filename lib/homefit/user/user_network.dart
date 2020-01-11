@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'dart:core';
 import 'package:redux/redux.dart';
-import 'package:homefit/utils/network.dart';
-import 'package:homefit/core/app_state.dart';
-import 'package:homefit/utils/preferences.dart';
-import 'package:homefit/user/user_actions.dart';
-import 'package:homefit/utils/utils.dart';
-import 'package:homefit/home/home_actions.dart';
+import 'package:gomotive/homefit/utils/network.dart';
+import 'package:gomotive/homefit/core/app_state.dart';
+import 'package:gomotive/utils/preferences.dart';
+import 'package:gomotive/homefit/user/user_actions.dart';
+import 'package:gomotive/homefit/utils/utils.dart';
+import 'package:gomotive/homefit/home/home_actions.dart';
 
 const PACKAGE_VERSION = "1";
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:homefit/utils/color_utils.dart';
+import 'package:gomotive/homefit/utils/color_utils.dart';
 
 class Avatar extends StatefulWidget {
   final String url;
