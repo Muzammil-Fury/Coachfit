@@ -12,6 +12,8 @@ import 'package:gomotive/conversation/conversation_routes.dart';
 import 'package:gomotive/scheduler/scheduler_routes.dart';
 import 'package:gomotive/education/education_routes.dart';
 import 'package:gomotive/dhf/dhf_routes.dart';
+import 'package:gomotive/homefit/home/home_routes.dart';
+import 'package:gomotive/homefit/workout/workout_routes.dart';
 
 var routes = authRoutes
   ..addAll(homeRoutes)
@@ -26,4 +28,6 @@ var routes = authRoutes
   ..addAll(conversationRoutes)
   ..addAll(schedulerRoutes)
   ..addAll(educationRoutes)
-  ..addAll(dhfRoutes);
+  ..addAll(dhfRoutes)
+  ..addAll(homefitRoutes)
+  ..addAll(homefitWorkoutRoutes);

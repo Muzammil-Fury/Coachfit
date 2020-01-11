@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'dart:core';
 import 'package:redux/redux.dart';
-import 'package:homefit/utils/network.dart';
-import 'package:homefit/core/app_state.dart';
-import 'package:homefit/workout/workout_actions.dart';
-import 'package:homefit/utils/utils.dart';
+import 'package:gomotive/homefit/utils/network.dart';
+import 'package:gomotive/core/app_state.dart';
+import 'package:gomotive/homefit/workout/workout_actions.dart';
+import 'package:gomotive/homefit/utils/utils.dart';
 
 
 const PACKAGE_VERSION = "1";

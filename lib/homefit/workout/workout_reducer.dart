@@ -1,6 +1,6 @@
 import 'package:redux/redux.dart';
-import 'package:homefit/workout/workout_state.dart';
-import 'package:homefit/workout/workout_actions.dart';
+import 'package:gomotive/homefit/workout/workout_state.dart';
+import 'package:gomotive/homefit/workout/workout_actions.dart';
 
 Reducer<HomeFitWorkoutState> homeFitWorkoutReducer = combineReducers([
   new TypedReducer<HomeFitWorkoutState, RecommendedWorkoutListSuccessActionCreator>(_recommendedWorkoutListSuccessActionCreator),

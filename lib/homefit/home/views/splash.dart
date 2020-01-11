@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
-import 'package:homefit/core/app_state.dart';
-import 'package:homefit/components/play_video.dart';
-import 'package:homefit/core/app_constants.dart';
-import 'package:homefit/core/app_config.dart';
+import 'package:gomotive/core/app_state.dart';
+import 'package:gomotive/homefit/components/play_video.dart';
+import 'package:gomotive/homefit/core/app_constants.dart';
+import 'package:gomotive/homefit/core/app_config.dart';
 
 class Splash extends StatelessWidget {
   

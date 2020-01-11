@@ -16,6 +16,8 @@ import 'package:gomotive/gameplan/gameplan_reducers.dart';
 import 'package:gomotive/goal/goal_reducers.dart';
 import 'package:gomotive/document/document_reducer.dart';
 import 'package:gomotive/intake/intake_reducer.dart';
+import 'package:gomotive/homefit/home/home_reducer.dart';
+import 'package:gomotive/homefit/workout/workout_reducer.dart';
 
 AppState appReducer(AppState state, action) {
   return new AppState(
@@ -36,5 +38,7 @@ AppState appReducer(AppState state, action) {
     goalState: goalReducer(state.goalState, action),
     documentState: documentReducer(state.documentState, action),
     intakeState: intakeReducer(state.intakeState, action),
+    homeFitWorkoutState: homeFitWorkoutReducer(state.homeFitWorkoutState, action),
+    homeFitHomeState: homeFitHomeReducer(state.homeFitHomeState, action),
   );
 }
