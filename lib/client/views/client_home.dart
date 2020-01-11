@@ -171,6 +171,13 @@ class _ClientHomeState extends State<_ClientHome> {
                 );
               },
             ),
+            floatingActionButton: FloatingActionButton(
+              child: Icon(Icons.add),
+              backgroundColor: Colors.white,
+              onPressed: (){
+                Navigator.of(context).pushNamed("/dashboard");
+              }
+            ),
             body: new LayoutBuilder(
               builder:
                   (BuildContext context, BoxConstraints viewportConstraints) {
