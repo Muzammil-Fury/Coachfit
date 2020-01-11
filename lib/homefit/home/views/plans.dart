@@ -4,7 +4,7 @@ import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 import 'package:gomotive/core/app_state.dart';
 import 'package:flutter_inapp_purchase/flutter_inapp_purchase.dart';
-import 'package:gomotive/homefit/home/views/subscribe.dart';
+//import 'package:gomotive/homefit/home/views/subscribe.dart';
 import 'package:gomotive/homefit/core/app_config.dart';
 import 'package:gomotive/homefit/utils/gomotive_icons.dart';
 import 'package:gomotive/homefit/core/app_constants.dart';
@@ -134,17 +134,17 @@ class _PlansState extends State<_Plans> {
                                     if(Utils.getDeviceType() == "ios" && _iOSIndividualPlan != null || 
                                       Utils.getDeviceType() == "android") {   
 
-                                      Navigator.push(
-                                        context,
-                                        new MaterialPageRoute(
-                                          builder: (context) => 
-                                          Subscribe(
-                                            planType: "individual",
-                                            planObject: _androidIndividualPlan,
-                                            planDetails: _iOSIndividualPlan,
-                                          )
-                                        ),
-                                      );  
+//                                      Navigator.push(
+//                                        context,
+//                                        new MaterialPageRoute(
+//                                          builder: (context) =>
+//                                          Subscribe(
+//                                            planType: "individual",
+//                                            planObject: _androidIndividualPlan,
+//                                            planDetails: _iOSIndividualPlan,
+//                                          )
+//                                        ),
+//                                      );
                                     }
                                   },
                                   child: new Container(
@@ -208,17 +208,17 @@ class _PlansState extends State<_Plans> {
                                     if(Utils.getDeviceType() == "ios" && _iOSFamilyPlan != null || 
                                       Utils.getDeviceType() == "android") {   
                                         
-                                      Navigator.push(
-                                        context,
-                                        new MaterialPageRoute(
-                                          builder: (context) => 
-                                          Subscribe(
-                                            planType: "family",
-                                            planObject: _androidFamilyPlan,
-                                            planDetails: _iOSFamilyPlan,
-                                          )
-                                        ),
-                                      );  
+//                                      Navigator.push(
+//                                        context,
+//                                        new MaterialPageRoute(
+//                                          builder: (context) =>
+//                                          Subscribe(
+//                                            planType: "family",
+//                                            planObject: _androidFamilyPlan,
+//                                            planDetails: _iOSFamilyPlan,
+//                                          )
+//                                        ),
+//                                      );
                                     }
                                   },
                                   child: new Container(
@@ -371,17 +371,17 @@ class _PlansState extends State<_Plans> {
                       onTap: () {                          
                         if(Utils.getDeviceType() == "ios" && _iOSIndividualPlan != null || 
                           Utils.getDeviceType() == "android") {   
-                          Navigator.push(
-                            context,
-                            new MaterialPageRoute(
-                              builder: (context) => 
-                              Subscribe(
-                                planType: "individual",
-                                planObject: _androidIndividualPlan,
-                                planDetails: _iOSIndividualPlan,
-                              )
-                            ),
-                          );  
+//                          Navigator.push(
+//                            context,
+//                            new MaterialPageRoute(
+//                              builder: (context) =>
+//                              Subscribe(
+//                                planType: "individual",
+//                                planObject: _androidIndividualPlan,
+//                                planDetails: _iOSIndividualPlan,
+//                              )
+//                            ),
+//                          );
                         }
                       },
                       child: new Container(
@@ -448,17 +448,17 @@ class _PlansState extends State<_Plans> {
                       onTap: () {     
                         if(Utils.getDeviceType() == "ios" && _iOSFamilyPlan != null || 
                           Utils.getDeviceType() == "android") {   
-                          Navigator.push(
-                            context,
-                            new MaterialPageRoute(
-                              builder: (context) => 
-                              Subscribe(
-                                planType: "family",
-                                planObject: _androidFamilyPlan,
-                                planDetails: _iOSFamilyPlan,
-                              )
-                            ),
-                          );  
+//                          Navigator.push(
+//                            context,
+//                            new MaterialPageRoute(
+//                              builder: (context) =>
+//                              Subscribe(
+//                                planType: "family",
+//                                planObject: _androidFamilyPlan,
+//                                planDetails: _iOSFamilyPlan,
+//                              )
+//                            ),
+//                          );
                         }
                       },
                       child: new Container(
