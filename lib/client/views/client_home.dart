@@ -180,8 +180,6 @@ class _ClientHomeState extends State<_ClientHome> {
               child: Icon(Icons.add),
               backgroundColor: Colors.white,
               onPressed: (){
-//                var params = new Map();
-//                _homefitVerifyUser(context, params);
               Navigator.of(context).push(MaterialPageRoute(builder: (context)=>new VerifyUser()));
               }
             ),

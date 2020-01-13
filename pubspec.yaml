@@ -84,6 +84,37 @@ flutter:
     - assets/images/habits.jpeg
     - assets/images/nutrition.jpeg
     - assets/images/invite_client.jpeg
+    - assets/images/background.png
+    - assets/images/dla.png
+    - assets/images/sports.png
+    - assets/images/mobility.png
+    - assets/images/metabolic.png
+    - assets/images/strength.png
+    - assets/images/power.png
+    - assets/images/subscribe.png
+    - assets/images/individual_plan.jpg
+    - assets/images/family_plan.jpg
+    - assets/images/filter_movement_meter.png
+    - assets/images/filter_equipment.png
+    - assets/images/filter_duration.png
+    - assets/images/filter_type.png
+    - assets/images/filter_level.png
+    - assets/images/filter_sports.png
+    - assets/images/equipment_bodyweight.jpeg
+    - assets/images/equipment_dumbbell.jpg
+    - assets/images/equipment_bands.jpeg
+    - assets/images/equipment_foamroller.png
+    - assets/images/equipment_kettlebells.jpeg
+    - assets/images/equipment_powerplate.jpg
+    - assets/images/equipment_bosu.jpeg
+    - assets/images/equipment_rockblade.jpeg
+    - assets/images/type_traditional.png
+    - assets/images/type_functional.png
+    - assets/images/check.png
+    - assets/images/filter_search.png
+    - assets/images/homefit_logo.png
+    - assets/images/splash_image_iphone.png
+    - assets/images/splash_image_ipad.png
 
 
   fonts:
