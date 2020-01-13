@@ -87,7 +87,7 @@ class UserAboutState extends State<_UserAbout> {
                           new Container(   
                             padding:EdgeInsets.fromLTRB(0, 8, 0, 0),                         
                             child: new Text(
-                              "Version " + appVersion,
+                              "Version " + homeFitAppVersion,
                               style: TextStyle(
                                 fontSize: 24.0,
                               )

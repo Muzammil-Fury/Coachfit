@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:gomotive/core/app_config.dart';
 import 'package:redux/redux.dart';
 import 'package:gomotive/core/app_state.dart';
 import 'package:gomotive/homefit/workout/workout_network.dart';

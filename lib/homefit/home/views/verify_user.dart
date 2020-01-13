@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:gomotive/core/app_config.dart';
 import 'package:redux/redux.dart';
 import 'package:gomotive/core/app_state.dart';
 import 'package:gomotive/homefit/home/home_network.dart';
-import 'package:gomotive/homefit/core/app_config.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:gomotive/homefit/core/app_constants.dart';
@@ -48,7 +48,7 @@ class _VerifyUserState extends State<_VerifyUser> {
       onInitialBuild: (Map stateObject) {
         _verifyUserAPI = stateObject["verifyUserAction"]; 
         Map _params = new Map();
-        _params["notification_token"] = notificationStr;      
+        _params["notification_token"] = notificationStr;
         _verifyUserAPI(context, _params);      
       },
       converter: (Store<AppState> store) {

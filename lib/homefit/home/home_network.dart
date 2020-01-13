@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gomotive/core/app_config.dart';
 import 'dart:core';
 import 'package:redux/redux.dart';
 import 'package:gomotive/homefit/utils/network.dart';
@@ -50,17 +51,18 @@ Function homefitVerifyUser(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
     Map responseData = await homefitPost(context, "dhfmove/dhf_move_verify_user", params);
-    if (responseData != null && responseData['status'] == "200") {      
+
+    if (responseData != null && responseData['status'] == "200") {
       store.dispatch(
         new VerifyUserActionCreator(
           responseData["user"],
           Utils.parseList(responseData, "plans"),
         )
       );
-      Navigator.of(context).pushReplacementNamed("/dashboard");       
+      Navigator.of(context).pushReplacementNamed("/dashboard");
     } else {
       Preferences.deleteAccessToken();
-      Navigator.of(context).pushReplacementNamed("/splash"); 
+      Navigator.of(context).pushReplacementNamed("/splash");
     }
   };
 }

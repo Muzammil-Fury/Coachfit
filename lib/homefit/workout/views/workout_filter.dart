@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:gomotive/core/app_config.dart';
 import 'package:gomotive/homefit/core/app_config.dart';
 import 'package:gomotive/homefit/components/dropdown_form_field.dart';
 import 'package:gomotive/homefit/components/multiselect.dart';

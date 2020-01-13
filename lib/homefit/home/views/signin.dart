@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:gomotive/core/app_config.dart';
+import 'package:gomotive/homefit/core/app_config.dart';
 import 'package:gomotive/homefit/utils/utils.dart';
 import 'package:gomotive/homefit/home/home_network.dart';
 import 'package:gomotive/homefit/home/home_actions.dart';
@@ -7,7 +9,6 @@ import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 import 'package:gomotive/core/app_state.dart';
 import 'package:gomotive/homefit/core/app_constants.dart';
-import 'package:gomotive/homefit/core/app_config.dart';
 import 'package:gomotive/homefit/utils/gomotive_icons.dart';
 import 'package:gomotive/homefit/components/text_tap.dart';
 
@@ -601,8 +602,8 @@ class _SignInState extends State<_SignIn> {
       },
       builder: (BuildContext context, Map stateObject) {        
         _emailExists = stateObject["emailExists"];
-        _privacyPolicyURL = baseURL + "site_media/static/files/privacy_policy.pdf";
-        _userAgreementURL = baseURL + "terms_of_use";
+        _privacyPolicyURL = homeFitBaseURL + "site_media/static/files/privacy_policy.pdf";
+        _userAgreementURL = homeFitBaseURL + "terms_of_use";
         if(mobileLayout) {
           return this._drawSmallerDeviceWidget();
         } else {

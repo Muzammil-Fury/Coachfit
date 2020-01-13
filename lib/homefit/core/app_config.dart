@@ -1,13 +1,11 @@
 
-const appVersion = "3.2";
-const apiVersion = "6";
+const homeFitAppVersion = "3.2";
+const homeFitApiVersion = "6";
 
-const baseURL = "https://dhf.gomotive.com/";
-// const baseURL = "http://dhf.dev.gomotive.com/";
-var apiURL = baseURL + "api/" + deviceType + "/" + apiVersion + "/";
+const homeFitBaseURL = "https://dhf.gomotive.com/";
+// const homeFitBaseURL = "http://dhf.dev.gomotive.com/";
+var homeFitApiURL = homeFitBaseURL + "api/" + deviceType + "/" + homeFitApiVersion + "/";
 
 var deviceType = "hftm";
-String deviceId;
-var token;
-bool mobileLayout;
-String notificationStr;
+bool mobileLayout = true;
+//String notificationStr;

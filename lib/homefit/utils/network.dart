@@ -1,3 +1,4 @@
+import 'package:gomotive/core/app_config.dart';
 import 'package:gomotive/homefit/core/app_config.dart';
 import 'package:gomotive/homefit/core/app_constants.dart';
 import 'package:gomotive/homefit/utils/utils.dart';
@@ -20,11 +21,11 @@ Future<Map<String, dynamic>> homefitPost(BuildContext context, String url, Map p
     borderRadius: 1.0,
   );
 
-  final String finalUrl = apiURL + url;
+  final String finalUrl = homeFitApiURL + url;
   Map body = Map();
   body.addAll(params);
   body["device_id"] = deviceId;
-  body["app_version"] = appVersion;
+  body["app_version"] = homeFitAppVersion;
 
   if (showLoading) {
     showDialog(

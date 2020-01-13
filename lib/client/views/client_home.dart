@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:gomotive/homefit/home/home_network.dart';
+import 'package:gomotive/homefit/home/views/verify_user.dart';
 import 'package:redux/redux.dart';
 import 'package:gomotive/core/app_state.dart';
 import 'package:gomotive/core/app_constants.dart';
@@ -49,7 +51,7 @@ class _ClientHomeState extends State<_ClientHome> {
   int _unreadMessgeCount, _unreadChatCount, _intakeFormCount;
   Map _businessPartner;
 
-  var _getClientHomePageDetailsAPI, _getPartnerDetailsApi;
+  var _getClientHomePageDetailsAPI, _getPartnerDetailsApi, _homefitVerifyUser;
 
   @override
   Widget build(BuildContext context) {
@@ -58,6 +60,7 @@ class _ClientHomeState extends State<_ClientHome> {
       onInitialBuild: (Map stateObject) {        
         _getClientHomePageDetailsAPI = stateObject["getClientHomePageDetailsAPI"];
         _getPartnerDetailsApi = stateObject["partnerDetailsAPI"];
+        _homefitVerifyUser = stateObject["homefitVerifyUserAPI"];
         _getClientHomePageDetailsAPI(context, {});
         var params = new Map();
         params["subdomain"] = partnerSubdomain;
@@ -69,6 +72,8 @@ class _ClientHomeState extends State<_ClientHome> {
             store.dispatch(getHomePageDetails(context, params));
         returnObject["partnerDetailsAPI"] = (BuildContext context, Map params) =>
             store.dispatch(getPartnerDetails(context, params));
+        returnObject["homefitVerifyUserAPI"] = (BuildContext context, Map params) =>
+            store.dispatch(homefitVerifyUser(context, params));
         returnObject["menuList"] = store.state.clientState.menuItems;
         returnObject["title"] = store.state.clientState.homePageTitle;
         returnObject["workoutImageUrl"] = store.state.clientState.workoutImageUrl;
@@ -175,7 +180,9 @@ class _ClientHomeState extends State<_ClientHome> {
               child: Icon(Icons.add),
               backgroundColor: Colors.white,
               onPressed: (){
-                Navigator.of(context).pushNamed("/dashboard");
+//                var params = new Map();
+//                _homefitVerifyUser(context, params);
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>new VerifyUser()));
               }
             ),
             body: new LayoutBuilder(
