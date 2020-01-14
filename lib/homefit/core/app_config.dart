@@ -7,5 +7,4 @@ const homeFitBaseURL = "https://dhf.gomotive.com/";
 var homeFitApiURL = homeFitBaseURL + "api/" + deviceType + "/" + homeFitApiVersion + "/";
 
 var deviceType = "hftm";
-bool mobileLayout = true;
-//String notificationStr;
+bool mobileLayout;

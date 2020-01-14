@@ -22,6 +22,8 @@ import 'package:uni_links/uni_links.dart';
 import 'package:flutter_crashlytics/flutter_crashlytics.dart';
 import 'dart:async';
 
+import 'homefit/core/app_config.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();  
 
@@ -97,6 +99,8 @@ void main() async {
                 home: SignIn(),
                 routes: routes,
                 builder: (context, child) {
+                  var shortestSide = MediaQuery.of(context).size.shortestSide;
+                  mobileLayout = shortestSide < 600;
                   getLinksStream().listen((String link) {                  
                     External.parseURL(link);                  
                   }, onError: (err) {                  
@@ -132,7 +136,9 @@ void main() async {
                     ),
                 home: new VerifyUser(),
                 routes: routes,
-                builder: (context, child)  { 
+                builder: (context, child)  {
+                  var shortestSide = MediaQuery.of(context).size.shortestSide;
+                  mobileLayout = shortestSide < 600;
                   getLinksStream().listen((String link) {
                     External.parseURL(link);
                   }, onError: (err) {                  
