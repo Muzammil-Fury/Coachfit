@@ -57,7 +57,7 @@ class MenuUtils {
         ),
       );
       _navigationItemList.add(widget4);
-      BottomNavigationBarItem widget5 = new BottomNavigationBarItem(
+      /*BottomNavigationBarItem widget5 = new BottomNavigationBarItem(
         icon: new Icon(
           GomotiveIcons.edit_profile,
           color: _pageName == "profile" ? dhfYellow : Colors.black87,
@@ -69,7 +69,7 @@ class MenuUtils {
           )
         ),
       );
-      _navigationItemList.add(widget5);
+      _navigationItemList.add(widget5);*/
     }                
     return _navigationItemList;
   }
@@ -81,9 +81,9 @@ class MenuUtils {
       Navigator.of(context).pushNamed("/workouts");      
     } else if(index == 2) {
       Navigator.of(context).pushNamed("/my_plan");
-    }else if(index == 3) {
+    }/*else if(index == 3) {
       Navigator.of(context).pushNamed("/user");
-    }
+    }*/
   }
   
 }

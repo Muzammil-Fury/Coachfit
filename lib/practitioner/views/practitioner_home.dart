@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:gomotive/homefit/home/views/verify_user.dart';
 import 'package:redux/redux.dart';
 import 'package:gomotive/core/app_state.dart';
 import 'package:gomotive/core/app_constants.dart';
@@ -63,6 +64,13 @@ class _PractitionerHomeState extends State<_PractitionerHome> {
         if(_menuList != null) {
           int _currentIndex = PractitionerUtils.getCurrentIndex(_menuList, _pageName);
           return new Scaffold(
+            floatingActionButton: FloatingActionButton(
+                child: Icon(Icons.add),
+                backgroundColor: Colors.white,
+                onPressed: (){
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=>new VerifyUser()));
+                }
+            ),
             key: _scaffoldKey,
             appBar: new AppBar(
               leading: IconButton(                  
